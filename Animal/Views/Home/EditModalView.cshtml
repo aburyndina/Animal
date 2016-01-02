@@ -1,0 +1,92 @@
+﻿@using System.Web.Mvc.Html
+@using Animal.Models
+
+@{
+    ViewBag.Title = "EditAnimal";
+    Animal animal = ViewBag.Animal;
+    List<AnimalType> animalType = ViewBag.AnimalType;
+    List<FellColor> fellColor = ViewBag.FellColor;
+    List<Region> region = ViewBag.Region;
+    List<Location> location = ViewBag.Location;
+}
+<script>
+    $('document').ready(function() {
+        $('#editAnimalModal').modal('show');
+    });
+</script>
+@*<script type="text/javascript">
+        $(document).ready(function () {
+            $(".open-modal").click(function () {
+                $("#myModal").modal('show');
+            });
+        });
+    </script>*@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Редактирование</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Редактирование</h2>
+        <!-- Modal -->
+        <div class="modal fade" id="editAnimalModal" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Modal Header</h4>
+                    </div>
+                    <div class="modal-body">
+                        @Html.ValidationSummary(true)
+                        <table>
+                            <tr>
+                                <td>Название</td>
+                                <td>@Html.TextBox("AnimalName", animal.Name) </td>
+                                <td>@Html.ValidationMessage(animal.Name)
+                            </tr>
+                            <tr>
+                                <td>Тип животного</td>
+                                <td>@Html.DropDownList("TypeId", animalType.Select(a => new SelectListItem() { Selected = a == animal.AnimalType, Text = a.Name, Value = a.Id.ToString() }))</td>
+                            </tr>
+                            <tr>
+                                <td>Цвет шкуры</td>
+                                <td>@Html.DropDownList("FellColorId", fellColor.Select(f => new SelectListItem() { Selected = f == animal.FellColor, Text = f.Name, Value = f.Id.ToString() }))</td>
+                            </tr>
+                            <tr>
+                                <td>Регион</td>
+                                <td>@Html.DropDownList("RegionId", region.Select(r => new SelectListItem() { Selected = r == animal.Location.Region, Text = r.Name, Value = r.Id.ToString() }))</td>
+                            </tr>
+                            <tr>
+                                <td>Местоположение</td>
+                                <td>@Html.DropDownList("LocationId", location.Select(l => new SelectListItem() { Selected = l == animal.Location, Text = l.Name, Value = l.Id.ToString() }))</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <input type="submit" value="Сохранить" />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
+

@@ -1,0 +1,35 @@
+C:\Users\aburindina\Documents\Visual Studio 2013\Projects\Animal\SeleniumTest\bin\Debug\SeleniumTest.exe.config
+C:\Users\aburindina\Documents\Visual Studio 2013\Projects\Animal\SeleniumTest\obj\Debug\SeleniumTest.csprojResolveAssemblyReference.cache
+C:\Users\aburindina\Documents\Visual Studio 2013\Projects\Animal\SeleniumTest\bin\Debug\SeleniumTest.exe
+C:\Users\aburindina\Documents\Visual Studio 2013\Projects\Animal\SeleniumTest\bin\Debug\SeleniumTest.pdb
+C:\Users\aburindina\Documents\Visual Studio 2013\Projects\Animal\SeleniumTest\bin\Debug\WebDriver.dll
+C:\Users\aburindina\Documents\Visual Studio 2013\Projects\Animal\SeleniumTest\bin\Debug\WebDriver.xml
+C:\Users\aburindina\Documents\Visual Studio 2013\Projects\Animal\SeleniumTest\obj\Debug\SeleniumTest.exe
+C:\Users\aburindina\Documents\Visual Studio 2013\Projects\Animal\SeleniumTest\obj\Debug\SeleniumTest.pdb
+C:\Users\aburindina\Documents\Visual Studio 2013\Projects\Animal\SeleniumTest\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+C:\Users\aburindina\Documents\Visual Studio 2013\Projects\Animal\SeleniumTest\bin\Debug\ThoughtWorks.Selenium.Core.dll
+C:\Users\aburindina\Documents\Visual Studio 2013\Projects\Animal\SeleniumTest\bin\Debug\WebDriver.Support.dll
+C:\Users\aburindina\Documents\Visual Studio 2013\Projects\Animal\SeleniumTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\aburindina\Documents\Visual Studio 2013\Projects\Animal\SeleniumTest\bin\Debug\Ionic.Zip.dll
+C:\Users\aburindina\Documents\Visual Studio 2013\Projects\Animal\SeleniumTest\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+C:\Users\aburindina\Documents\Visual Studio 2013\Projects\Animal\SeleniumTest\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+C:\Users\aburindina\Documents\Visual Studio 2013\Projects\Animal\SeleniumTest\bin\Debug\ThoughtWorks.Selenium.Core.pdb
+C:\Users\aburindina\Documents\Visual Studio 2013\Projects\Animal\SeleniumTest\bin\Debug\ThoughtWorks.Selenium.Core.xml
+C:\Users\aburindina\Documents\Visual Studio 2013\Projects\Animal\SeleniumTest\bin\Debug\WebDriver.Support.pdb
+C:\Users\aburindina\Documents\Visual Studio 2013\Projects\Animal\SeleniumTest\bin\Debug\WebDriver.Support.xml
+C:\Users\aburindina\Documents\Visual Studio 2013\Projects\Animal\SeleniumTest\bin\Debug\WebDriver.pdb
+C:\Nastya\project\Animal\SeleniumTest\bin\Debug\SeleniumTest.exe.config
+C:\Nastya\project\Animal\SeleniumTest\obj\Debug\SeleniumTest.exe
+C:\Nastya\project\Animal\SeleniumTest\obj\Debug\SeleniumTest.pdb
+C:\Nastya\project\Animal\SeleniumTest\bin\Debug\SeleniumTest.exe
+C:\Nastya\project\Animal\SeleniumTest\bin\Debug\SeleniumTest.pdb
+C:\Nastya\project\Animal\SeleniumTest\bin\Debug\Newtonsoft.Json.dll
+C:\Nastya\project\Animal\SeleniumTest\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+C:\Nastya\project\Animal\SeleniumTest\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+C:\Nastya\project\Animal\SeleniumTest\bin\Debug\ThoughtWorks.Selenium.Core.pdb
+C:\Nastya\project\Animal\SeleniumTest\bin\Debug\ThoughtWorks.Selenium.Core.xml
+C:\Nastya\project\Animal\SeleniumTest\bin\Debug\WebDriver.pdb
+C:\Nastya\project\Animal\SeleniumTest\bin\Debug\WebDriver.xml
+C:\Nastya\project\Animal\SeleniumTest\bin\Debug\WebDriver.Support.pdb
+C:\Nastya\project\Animal\SeleniumTest\bin\Debug\WebDriver.Support.xml
+C:\Nastya\project\Animal\SeleniumTest\obj\Debug\SeleniumTest.csprojResolveAssemblyReference.cache

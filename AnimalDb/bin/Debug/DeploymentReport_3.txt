@@ -1,0 +1,23 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Animal] (Table)
+       [dbo].[AnimalType] (Table)
+       [dbo].[FellColor] (Table)
+       [dbo].[Location] (Table)
+       [dbo].[Region] (Table)
+       [dbo].[fk_Animal_TypeId] (Foreign Key)
+       [dbo].[fk_Animal_ColorId] (Foreign Key)
+       [dbo].[fk_Animal_LocationId] (Foreign Key)
+       [dbo].[fk_Location_RegionId] (Foreign Key)
+
+** Supporting actions

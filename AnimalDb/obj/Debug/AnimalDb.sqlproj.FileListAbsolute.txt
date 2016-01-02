@@ -1,0 +1,8 @@
+c:\Users\aburindina\documents\visual studio 2013\Projects\Animal\AnimalDb\bin\Debug\AnimalDb.dacpac
+c:\Users\aburindina\documents\visual studio 2013\Projects\Animal\AnimalDb\obj\Debug\AnimalDb.dll
+c:\Users\aburindina\documents\visual studio 2013\Projects\Animal\AnimalDb\obj\Debug\AnimalDb.pdb
+c:\Users\aburindina\documents\visual studio 2013\Projects\Animal\AnimalDb\bin\Debug\AnimalDb.dll
+c:\Users\aburindina\documents\visual studio 2013\Projects\Animal\AnimalDb\bin\Debug\AnimalDb.pdb
+C:\Nastya\project\Animal\AnimalDb\bin\Debug\AnimalDb.dacpac
+C:\Nastya\project\Animal\AnimalDb\obj\Debug\AnimalDb.dll
+C:\Nastya\project\Animal\AnimalDb\obj\Debug\AnimalDb.pdb

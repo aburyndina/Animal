@@ -1,0 +1,34 @@
+﻿@using Animal.Models
+@{
+   var animal = ViewBag.Animal;
+}
+
+<div id="searchResults" class="table table-striped">
+    <table id="Animal">
+        <thead>
+            <tr>
+                <th>Животное</th>
+                <th>Тип</th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var a in animal)
+            {
+
+                <tr>
+                    <td>@a.Name</td>
+                    <td>@a.AnimalType.Name</td>
+                    <td>@Html.ActionLink("Детально", "DetailAnimal", "Home", new { id = a.Id }, null)</td>
+                    <td><a id="EditAnimalLink" href="#" data-key="@a.Id">Изменить</a></td>
+                    @*<td>@Ajax.ActionLink("Изменить", "EditAnimal", "Home", AjaxOptionObj, new { @class = "EditAnimalLink" })</td>*@
+                    @*<td class="EditAnimalLink">@Html.ActionLink("Изменить", "EditAnimal", "Home", new { id = a.Id }, new { @class = "EditAnimalLink" })</td>*@
+                    <td>@Html.ActionLink("Удалить", "DeleteAnimal", "Home", new { id = a.Id }, null)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

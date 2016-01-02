@@ -1,0 +1,66 @@
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\obj\Debug\Animal.csprojResolveAssemblyReference.cache
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\Animal.dll.config
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\Animal.dll
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\Animal.pdb
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\Antlr3.Runtime.dll
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\Autofac.dll
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\Autofac.Integration.Mvc.dll
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\Dapper.dll
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\Microsoft.Web.Infrastructure.dll
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\Newtonsoft.Json.dll
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\System.Web.Helpers.dll
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\System.Web.Mvc.dll
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\System.Web.Optimization.dll
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\System.Web.Razor.dll
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\System.Web.WebPages.Deployment.dll
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\System.Web.WebPages.dll
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\System.Web.WebPages.Razor.dll
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\WebGrease.dll
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\Autofac.xml
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\Autofac.Integration.Mvc.xml
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\Dapper.pdb
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\Dapper.xml
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\System.Web.Helpers.xml
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\System.Web.Mvc.xml
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\System.Web.Optimization.xml
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\System.Web.Razor.xml
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\System.Web.WebPages.xml
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\System.Web.WebPages.Deployment.xml
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\System.Web.WebPages.Razor.xml
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\Antlr3.Runtime.pdb
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\bin\Newtonsoft.Json.xml
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\obj\Debug\Animal.dll
+c:\users\aburindina\documents\visual studio 2013\Projects\Animal\Animal\obj\Debug\Animal.pdb
+C:\Nastya\project\Animal\Animal\bin\Animal.dll.config
+C:\Nastya\project\Animal\Animal\bin\Animal.dll
+C:\Nastya\project\Animal\Animal\bin\Animal.pdb
+C:\Nastya\project\Animal\Animal\bin\Antlr3.Runtime.dll
+C:\Nastya\project\Animal\Animal\bin\Autofac.dll
+C:\Nastya\project\Animal\Animal\bin\Autofac.Integration.Mvc.dll
+C:\Nastya\project\Animal\Animal\bin\Dapper.dll
+C:\Nastya\project\Animal\Animal\bin\Microsoft.Web.Infrastructure.dll
+C:\Nastya\project\Animal\Animal\bin\Newtonsoft.Json.dll
+C:\Nastya\project\Animal\Animal\bin\System.Web.Helpers.dll
+C:\Nastya\project\Animal\Animal\bin\System.Web.Mvc.dll
+C:\Nastya\project\Animal\Animal\bin\System.Web.Optimization.dll
+C:\Nastya\project\Animal\Animal\bin\System.Web.Razor.dll
+C:\Nastya\project\Animal\Animal\bin\System.Web.WebPages.Deployment.dll
+C:\Nastya\project\Animal\Animal\bin\System.Web.WebPages.dll
+C:\Nastya\project\Animal\Animal\bin\System.Web.WebPages.Razor.dll
+C:\Nastya\project\Animal\Animal\bin\WebGrease.dll
+C:\Nastya\project\Animal\Animal\bin\Autofac.xml
+C:\Nastya\project\Animal\Animal\bin\Autofac.Integration.Mvc.xml
+C:\Nastya\project\Animal\Animal\bin\Dapper.pdb
+C:\Nastya\project\Animal\Animal\bin\Dapper.xml
+C:\Nastya\project\Animal\Animal\bin\System.Web.Helpers.xml
+C:\Nastya\project\Animal\Animal\bin\System.Web.Mvc.xml
+C:\Nastya\project\Animal\Animal\bin\System.Web.Optimization.xml
+C:\Nastya\project\Animal\Animal\bin\System.Web.Razor.xml
+C:\Nastya\project\Animal\Animal\bin\System.Web.WebPages.xml
+C:\Nastya\project\Animal\Animal\bin\System.Web.WebPages.Deployment.xml
+C:\Nastya\project\Animal\Animal\bin\System.Web.WebPages.Razor.xml
+C:\Nastya\project\Animal\Animal\bin\Antlr3.Runtime.pdb
+C:\Nastya\project\Animal\Animal\bin\Newtonsoft.Json.xml
+C:\Nastya\project\Animal\Animal\obj\Debug\Animal.csprojResolveAssemblyReference.cache
+C:\Nastya\project\Animal\Animal\obj\Debug\Animal.dll
+C:\Nastya\project\Animal\Animal\obj\Debug\Animal.pdb

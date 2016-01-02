@@ -1,0 +1,78 @@
+﻿@using System.Web.Mvc.Html
+@using Animal.Models
+
+@{
+    ViewBag.Title = "EditAnimal";
+    List<AnimalType> animalType = ViewBag.AnimalType;
+    List<FellColor> fellColor = ViewBag.FellColor;
+    List<Region> region = ViewBag.Region;
+}
+@section scripts {
+    <script type="text/javascript">
+        var fillLocationUrl = '@Url.Action("FillLocation", "Home")';
+        function FillLocation() {
+            var regionId = $('#RegionId').val();
+            $.ajax({
+                url: fillLocationUrl,
+                type: "GET",
+                dataType: "JSON",
+                data: { RegionId: regionId },
+                success: function (locations) {
+                    $("#LocationId").html(""); // clear before appending new list
+                    $.each(locations, function (i, location) {
+                        $("#LocationId").append(
+                            $('<option></option>').val(location.Id).html(location.Name));
+                    });
+                }
+            });
+        }
+    </script>
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Создание животного</title>
+</head>
+<body>
+@using (Html.BeginForm("AddAnimal", "Home", FormMethod.Post))
+{
+    <div class="container body-content">
+        <div class="row">
+            <table>
+                <tr>
+                    <td>Название</td>
+                    <td>@Html.TextBox("AnimalName", "", new {@class = "form-control"}) </td>
+                </tr>
+                <tr>
+                    <td>Тип животного</td>
+                    <td>@Html.DropDownList("TypeId", animalType.Select(a => new SelectListItem() {Text = a.Name, Value = a.Id.ToString()}), new {@class = "form-control"})</td>
+                </tr>
+                <tr>
+                    <td>Цвет шкуры</td>
+                    <td>@Html.DropDownList("FellColorId", fellColor.Select(f => new SelectListItem() {Text = f.Name, Value = f.Id.ToString()}), new {@class = "form-control"})</td>
+                </tr>
+                <tr>
+                    <td>Регион</td>
+                    <td>@Html.DropDownList("RegionId", region.Select(r => new SelectListItem() {Text = r.Name, Value = r.Id.ToString()}), "Выберите регион",
+                            new {@class = "form-control", @onchange = "FillLocation()"})</td>
+                </tr>
+                <tr>
+                    <td>Местоположение</td>
+                    <td>@Html.DropDownList("LocationId", new SelectList(Enumerable.Empty<SelectListItem>(), "LocationId", "Name"),
+                            "Выберите город",
+                            new {@class = "form-control"})</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Сохранить"/>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+}
+    <div>@Html.ActionLink("Обратно", "Index", "Home")</div>
+    </body>
+    </html>

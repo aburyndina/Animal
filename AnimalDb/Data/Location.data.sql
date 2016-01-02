@@ -1,0 +1,6 @@
+﻿insert into dbo.Location(Id, Name, RegionId) values(1, N'Москва', 1 )
+insert into dbo.Location(Id, Name, RegionId) values(2, N'Екатеринбург', 1)
+insert into dbo.Location(Id, Name, RegionId) values(3, N'Казань', 1)
+insert into dbo.Location(Id, Name, RegionId) values(4, N'Берлин', 2 )
+insert into dbo.Location(Id, Name, RegionId) values(5, N'Кельн', 2 )
+insert into dbo.Location(Id, Name, RegionId) values(6, N'Париж', 3)
