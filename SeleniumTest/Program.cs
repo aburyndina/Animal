@@ -28,7 +28,7 @@ namespace SeleniumTest
             //поиск
             IWebElement searchButton = driver.FindElement(By.XPath("//input[@type='submit' and @value='Найти']"));
             searchButton.Click();
-
+            //tt
             //создание животного
             IWebElement addAnimal = driver.FindElement(By.XPath("//input[@type='submit' and @value='Создать животное']"));
             addAnimal.Click();
