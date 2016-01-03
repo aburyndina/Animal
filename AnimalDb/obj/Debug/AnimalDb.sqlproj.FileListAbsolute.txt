@@ -6,3 +6,9 @@ c:\Users\aburindina\documents\visual studio 2013\Projects\Animal\AnimalDb\bin\De
 C:\Nastya\project\Animal\AnimalDb\bin\Debug\AnimalDb.dacpac
 C:\Nastya\project\Animal\AnimalDb\obj\Debug\AnimalDb.dll
 C:\Nastya\project\Animal\AnimalDb\obj\Debug\AnimalDb.pdb
+C:\Nastya\project\Animal\AnimalDb\bin\Debug\AnimalDb.dll
+C:\Nastya\project\Animal\AnimalDb\bin\Debug\AnimalDb.pdb
+C:\Nastya\project\Animal\AnimalDb\obj\Debug\Model.xml
+C:\Nastya\project\Animal\AnimalDb\obj\Debug\refactor.xml
+C:\Nastya\project\Animal\AnimalDb\obj\Debug\postdeploy.sql
+C:\Nastya\project\Animal\AnimalDb\obj\Debug\predeploy.sql

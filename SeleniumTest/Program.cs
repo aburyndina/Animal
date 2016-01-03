@@ -96,7 +96,7 @@ namespace SeleniumTest
 
   
             //удаляем животное
-            //var deleteLink = string.Format("[href*='/Home/DeleteAnimal/{0}']", deleteLinkId);
+            //var deleteLink6 = string.Format("[href*='/Home/DeleteAnimal/{0}']", 1);
             deleteLink.ForEach(d => driver.Navigate().GoToUrl(d));
             //driver.Navigate().GoToUrl(deleteLinkId);
             //driver.FindElement(By.CssSelector(deleteLinkId)).Click();
